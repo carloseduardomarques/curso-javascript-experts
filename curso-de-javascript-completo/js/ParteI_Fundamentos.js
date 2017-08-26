@@ -38,7 +38,7 @@ if(texto)
 else
     console.log("false");*/
 
-var a = 9,
+/*var a = 9,
     b = 2;
     soma = a + b;
     subtracao = a - b;
@@ -53,7 +53,58 @@ var a = 9,
   console.log("Valor de subtracao= "+subtracao);
   console.log("Valor de multiplicacao= "+multiplicacao);
   console.log("Valor de divisao= "+divisao);
-  console.log("Valor de resto= "+resto);
+  console.log("Valor de resto= "+resto);*/
+
+
+  //Operadores de atribuição
+
+  console.log("Variaveis")
+  var a = 9,
+      b = 2;
+
+  console.log("valor de a="+ a);
+  console.log("valor de b="+ b);
+
+  //somando
+  console.log("soma");
+  a += b;
+  console.log("a += b = " + a );
+  a = a + b;
+  console.log("a = a + b = " + a );
+  
+  //subtraindo
+  console.log("subtraindo");
+  a -= b;
+  console.log("a -= b = " + a );
+  a = a - b;
+  console.log("a = a - b= " + a );
+  
+  //multiplicando
+  console.log("multiplicando");
+  a *= b;
+  console.log("a *= b = " + a );
+  a = a * b;
+  console.log("a = a * b= " + a );
+
+  //dividindo
+  console.log("dividindo");
+  a /= b;
+  console.log("a /= b = " + a );
+  a = a * b;
+  console.log("a = a / b= " + a );
+
+  //restando
+  console.log("restando");
+  a %= b;
+  console.log("a %= b = " + a );
+  a = a * b;
+  console.log("a = a % b= " + a );
+
+
+  
+  
+
+
 
   
 
