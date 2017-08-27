@@ -16,7 +16,7 @@ window.onload = function(){
     
     function meuevento(){
     
-      alert("Você clicou aqui: Parabens o evento funcionou");
+     alert("Você clicou aqui: Parabens o evento funcionou");
     
     }
     
@@ -24,7 +24,7 @@ window.onload = function(){
     /*Principais
 
 /*Eventos do mouse*/
-
+/*
 click
   o evento click ocorre quando é dado um clique simples ou pressionado a tecla enter
 
@@ -98,4 +98,4 @@ Load
    Ocorre depois que a janela do navegador e fechada
 
    blur
-    Ocorre quando o objeto perde o foco
+    Ocorre quando o objeto perde o foco*/
