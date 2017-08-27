@@ -134,7 +134,79 @@ var vetor = [1,2,3];
     
     console.log("Criar no array a partir das coordenadas");
     resultado = vetor.slice(3,4);
-    console.log(resultado); 
     
+    console.log(resultado); 
 
- 
+    resultado = vetor.toString();
+    console.log(resultado); 
+    console.log(typeof resultado); 
+
+
+ /**
+  * elementos de callback
+   verificar se todos elementos sao pares
+   se sim retorna verdadeiro senao falso
+  */
+
+  var callback = [2,4,6,12,8,10];
+  
+
+   function par(elemento,indice,objeto){
+
+      if(elemento > 9)  
+    return (elemento * 2);
+
+    else
+      /*return (elemento % 2==0);*/
+      return (elemento);
+
+   }
+  
+    console.log(callback);
+
+    /*se todos obedecerem a regra*/
+    resultado = callback.every(par)
+
+    /*se pelo menos um  obedecer a regra*/
+    resultado = callback.some(par);
+
+    /*retona elemento modificados pelo callback*/
+    resultado = callback.map(par);
+  
+    console.log(resultado);
+  
+  
+  /**
+  * elementos de callback
+   verificar se cada elemento e par
+   se sim retorna verdadeiro senao falso
+  */
+  var callback = [2,4,6,7,8,10];
+      var txt="";
+
+   function par(elemento,indice,objeto){
+
+    /*teste par*/  
+   /* return (elemento % 2==0);*/
+    /*teste impar*/  
+    /*return (elemento % 2!=0);*/
+
+    txt += "vetor[ " + indice + "] = " + elemento + "\n";
+
+   }
+  
+    console.log(callback);
+
+    /*resultado = callback.filter(par)
+    
+    resultado = callback.forEach(par)*/
+    
+    callback.forEach(par);
+    
+  
+    console.log(txt);
+
+
+
+
+
